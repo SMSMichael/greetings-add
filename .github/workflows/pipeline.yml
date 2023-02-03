@@ -99,7 +99,8 @@ jobs:
     - shell: bash
       run: |
         echo argument count is ${{ steps.report-count.outputs.arg-count }}
-        exit 1
+#        Uncomment the line below to force an error that generates a GitHub issue automatically
+#        exit 1 
         
         
   create-issue-on-failure:
