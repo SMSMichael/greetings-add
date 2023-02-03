@@ -90,7 +90,7 @@ jobs:
     
     steps:
     - id: report-count
-      uses: <your github userid>/arg-count-action@main
+      uses: SMSMichael/arg-count-action@main
       with:
         arguments-to-count: ${{ github.event.input.myValues }}
     - run: echo
